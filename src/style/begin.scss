@@ -1,0 +1,25 @@
+.begin{
+  background: url("../assets/images/begin_bg.png") center/cover no-repeat;
+  padding: 77px 0 123px;
+  &__content{
+    width: 70%;
+    text-align: center;
+    transform: rotate(-8.37deg);
+  }
+  &__title{
+    font-weight: 600;
+    font-size: 67px;
+    line-height: 109.2%;
+    text-transform: uppercase;
+
+  }
+  &__question{
+    width: 210px;
+    padding: 6px 8px;
+    margin: 40px auto 0;
+    font-size: 20px;
+    background: linear-gradient(114.93deg, #618967 5.11%, #72A479 94%);
+    transform: skew(-25px);
+    text-transform: uppercase;
+  }
+}

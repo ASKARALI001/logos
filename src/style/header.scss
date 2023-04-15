@@ -1,0 +1,127 @@
+.header {
+  padding: 24px 0;
+  background: #403C3B;
+
+  &__flex {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__right {
+    display: flex;
+    column-gap: 72px;
+    align-items: center;
+  }
+
+  &__title {
+    font-size: 25px;
+    letter-spacing: 0.15em;
+    color: #FFFFFF;
+  }
+
+  &__search {
+    width: 555px;
+    position: relative;
+
+    &-map {
+      position: absolute;
+      top: 50%;
+      left: 18px;
+      transform: translateY(-50%);
+    }
+
+    &-ser {
+      position: absolute;
+      top: 50%;
+      right: 18px;
+      transform: translateY(-50%);
+
+    }
+  }
+
+  &__between {
+    display: flex;
+    column-gap: 30px;
+
+    &-input {
+      padding: 15px 48px;
+      width: 100%;
+      height: 52px;
+      background: #504B4A;
+      border: none;
+      border-radius: 10px;
+      outline: none;
+
+      &::placeholder {
+        font-weight: 400;
+        font-size: 18px;
+        color: #CFCFCF;
+      }
+    }
+  }
+
+  &__contact {
+    display: flex;
+    column-gap: 12px;
+    align-items: center;
+
+    &-span {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      background: linear-gradient(114.93deg, #618967 5.11%, #72A479 94%);
+    }
+
+    &-text {
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 20px;
+      color: #CFCFCF;
+    }
+
+  }
+
+  &__btn {
+    background: linear-gradient(114.93deg, #618967 5.11%, #72A479 94%);
+    border-radius: 10px;
+    border: none;
+    padding: 14px 14px 14px 24px;
+    display: flex;
+    column-gap: 32px;
+    align-items: center;
+
+    &-col {
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      background: #fff;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 14px;
+      padding: 5px 9px;
+      color: #403C3B;
+      position: relative;
+
+      &:before {
+        content: "";
+        width: 2px;
+        height: 38px;
+        background: #ffffff30;
+        position: absolute;
+        left: -12px;
+        top: -6px;
+
+      }
+    }
+  }
+  &__person{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+
+
+}

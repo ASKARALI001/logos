@@ -1,0 +1,73 @@
+.map{
+  padding: 70px 0 40px;
+  background: url("../assets/images/map-bg.png") center/cover no-repeat;
+  &__contact{
+    max-width: 526px;
+    width: 100%;
+    padding: 25px 43px;
+    background: #2E2B2C;
+    box-shadow: 0 0 70px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+    &-title{
+      font-weight: 700;
+      font-size: 30px;
+      text-transform: uppercase;
+    }
+    &-icon{
+      font-size: 35px;
+    }
+    &-loc{
+      margin: 42px 0 20px;
+      display: flex;
+      column-gap: 15px;
+    }
+    &-email{
+      display: flex;
+      column-gap: 15px;
+      margin-bottom: 28px;
+    }
+    &-desc{
+      font-weight: 400;
+      font-size: 14px;
+      color: #fff;
+    }
+    &-text{
+      font-weight: 400;
+      font-size: 13px;
+      color: #CFCFCF;
+    }
+    &-bron{
+      display: flex;
+      column-gap: 33px;
+      margin-bottom: 30px;
+
+    }
+    &-btn{
+      background: linear-gradient(114.93deg, #618967 5.11%, #72A479 94%);
+      border-radius: 10px;
+      font-weight: 700;
+      font-size: 13px;
+      color: #FFFFFF;
+      padding: 22px 30px;
+      border: none;
+    }
+    &-num{
+      font-weight: 700;
+      font-size: 23px;
+    }
+    &-inter{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      column-gap: 26px;
+      &-icon{
+        font-size: 30px;
+      }
+    }
+    &-insta{
+      display: flex;
+      column-gap: 10px;
+    }
+
+  }
+}
